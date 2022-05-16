@@ -12,7 +12,6 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 5vh;
-    overflow: hidden;
     padding: 10px;
     margin: 0px;
     list-style: none;
@@ -49,6 +48,7 @@ img {
     grid-template-areas: 'hd hd hd';
     grid-gap: 20px;
     padding: 20px;
+    overflow: hidden;
     background-color: #fff;
 
 }
