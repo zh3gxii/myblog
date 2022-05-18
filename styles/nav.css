@@ -1,0 +1,32 @@
+.TopNav{
+    background-color: #1abc9c;
+}
+.Navlinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 10px;
+    margin: auto;
+    list-style: none;
+    background-color: #1abc9c;
+}
+.Navlinks a {
+    text-decoration: none;
+    color: inherit;
+    background-color: #1abc9c;
+}
+.Navlinks a:hover {
+   color:#fff;
+   border-bottom-style: solid;
+   border-bottom-color: #f57595;
+   border-radius: 10%;
+}
+.logo {
+    color: #f57595;
+    font: 20px  'Ubuntu', sans-serif;
+}
+.logo h3 {
+    background-color: #1abc9c;
+    border: 2px solid #f57595;
+}
