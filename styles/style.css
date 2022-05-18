@@ -66,12 +66,10 @@ hr {
     display: inline-block;
 }
 
-figure {
-  border: 1px #cccccc solid;
-  padding: 4px;
-  margin: auto;
-}
 
+u {
+    color: #f57595;
+}
 figcaption {
   background-color: #8e8e8e;
   color: #fff;
