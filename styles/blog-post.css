@@ -63,7 +63,7 @@ img {
  .text-container {
     box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;
     padding: 30px 0px 0px 0px;
-    border-radius: 20px;
+    border-radius: 20px 0px 20px 20px;
     background: #fff;
     margin: -50px 20px 120px 20px;
     line-height: 20px;
