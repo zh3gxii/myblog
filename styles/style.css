@@ -71,9 +71,7 @@ u {
     color: #f57595;
 }
 figcaption {
-  background-color: #8e8e8e;
-  color: #fff;
-  font: 10px italic 'Ubuntu', sans-serif;
+  font: 20px bold 'Ubuntu', sans-serif;
   padding: 2px;
   text-align: center;
 }
