@@ -66,7 +66,19 @@ hr {
     display: inline-block;
 }
 
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
 
+figcaption {
+  background-color: #8e8e8e;
+  color: #fff;
+  font: 10px italic 'Ubuntu', sans-serif;
+  padding: 2px;
+  text-align: center;
+}
 #btn {
     display: inline-block;
     background-color: #fff;
@@ -99,4 +111,24 @@ footer h3{
     color: #fff;
     font-style: italic;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+.Headings {
+    grid-area: hd;
+}
+.Container-Grid {
+    display: grid;
+    grid-template-areas: 'hd hd hd';
+    grid-gap: 5px;
+    padding: 10px;
+    background-color: #fff;
+
+}
+.Container-Grid > section {
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;
+}
 }
