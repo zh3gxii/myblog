@@ -123,6 +123,7 @@ footer h3{
     grid-gap: 5px;
     padding: 10px;
     background-color: #fff;
+    overflow: hidden;
 
 }
 .Container-Grid > section {
