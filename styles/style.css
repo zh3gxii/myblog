@@ -70,6 +70,7 @@ hr {
 u {
     color: #f57595;
 }
+
 figcaption {
   font: 20px bold 'Ubuntu', sans-serif;
   padding: 2px;
@@ -155,8 +156,7 @@ footer h3{
     #Bigbtn:hover, #btn:hover {
         background-color: #f57595;
         color: #fff;
-       /* border-bottom: 5px solid #000;
-    */}
+       }
     #Bigbtn {
         display: inline-block;
         background-color: #fff;
